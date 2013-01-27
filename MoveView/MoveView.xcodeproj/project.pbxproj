@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03FCE2616B4FBEC006574E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FCE2516B4FBEC006574E1 /* UIKit.framework */; };
+		C03FCE2816B4FBEC006574E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FCE2716B4FBEC006574E1 /* Foundation.framework */; };
+		C03FCE2A16B4FBEC006574E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03FCE2916B4FBEC006574E1 /* CoreGraphics.framework */; };
+		C03FCE3016B4FBEC006574E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C03FCE2E16B4FBEC006574E1 /* InfoPlist.strings */; };
+		C03FCE3216B4FBEC006574E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FCE3116B4FBEC006574E1 /* main.m */; };
+		C03FCE3616B4FBEC006574E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FCE3516B4FBEC006574E1 /* AppDelegate.m */; };
+		C03FCE3816B4FBEC006574E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FCE3716B4FBEC006574E1 /* Default.png */; };
+		C03FCE3A16B4FBEC006574E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FCE3916B4FBEC006574E1 /* Default@2x.png */; };
+		C03FCE3C16B4FBEC006574E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C03FCE3B16B4FBEC006574E1 /* Default-568h@2x.png */; };
+		C03FCE4416B4FC10006574E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FCE4316B4FC10006574E1 /* ViewController.m */; };
+		C03FCE4716B50147006574E1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C03FCE4616B50147006574E1 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C03FCE2116B4FBEC006574E1 /* MoveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03FCE2516B4FBEC006574E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C03FCE2716B4FBEC006574E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C03FCE2916B4FBEC006574E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C03FCE2D16B4FBEC006574E1 /* MoveView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveView-Info.plist"; sourceTree = "<group>"; };
+		C03FCE2F16B4FBEC006574E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C03FCE3116B4FBEC006574E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C03FCE3316B4FBEC006574E1 /* MoveView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoveView-Prefix.pch"; sourceTree = "<group>"; };
+		C03FCE3416B4FBEC006574E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C03FCE3516B4FBEC006574E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C03FCE3716B4FBEC006574E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C03FCE3916B4FBEC006574E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C03FCE3B16B4FBEC006574E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C03FCE4216B4FC10006574E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C03FCE4316B4FC10006574E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C03FCE4516B50147006574E1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C03FCE4616B50147006574E1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03FCE1E16B4FBEC006574E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03FCE2616B4FBEC006574E1 /* UIKit.framework in Frameworks */,
+				C03FCE2816B4FBEC006574E1 /* Foundation.framework in Frameworks */,
+				C03FCE2A16B4FBEC006574E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03FCE1616B4FBEC006574E1 = {
+			isa = PBXGroup;
+			children = (
+				C03FCE2B16B4FBEC006574E1 /* MoveView */,
+				C03FCE2416B4FBEC006574E1 /* Frameworks */,
+				C03FCE2216B4FBEC006574E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03FCE2216B4FBEC006574E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03FCE2116B4FBEC006574E1 /* MoveView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03FCE2416B4FBEC006574E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C03FCE2516B4FBEC006574E1 /* UIKit.framework */,
+				C03FCE2716B4FBEC006574E1 /* Foundation.framework */,
+				C03FCE2916B4FBEC006574E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03FCE2B16B4FBEC006574E1 /* MoveView */ = {
+			isa = PBXGroup;
+			children = (
+				C03FCE3416B4FBEC006574E1 /* AppDelegate.h */,
+				C03FCE3516B4FBEC006574E1 /* AppDelegate.m */,
+				C03FCE4516B50147006574E1 /* SecondViewController.h */,
+				C03FCE4616B50147006574E1 /* SecondViewController.m */,
+				C03FCE4216B4FC10006574E1 /* ViewController.h */,
+				C03FCE4316B4FC10006574E1 /* ViewController.m */,
+				C03FCE2C16B4FBEC006574E1 /* Supporting Files */,
+			);
+			path = MoveView;
+			sourceTree = "<group>";
+		};
+		C03FCE2C16B4FBEC006574E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03FCE2D16B4FBEC006574E1 /* MoveView-Info.plist */,
+				C03FCE2E16B4FBEC006574E1 /* InfoPlist.strings */,
+				C03FCE3116B4FBEC006574E1 /* main.m */,
+				C03FCE3316B4FBEC006574E1 /* MoveView-Prefix.pch */,
+				C03FCE3716B4FBEC006574E1 /* Default.png */,
+				C03FCE3916B4FBEC006574E1 /* Default@2x.png */,
+				C03FCE3B16B4FBEC006574E1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03FCE2016B4FBEC006574E1 /* MoveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03FCE3F16B4FBEC006574E1 /* Build configuration list for PBXNativeTarget "MoveView" */;
+			buildPhases = (
+				C03FCE1D16B4FBEC006574E1 /* Sources */,
+				C03FCE1E16B4FBEC006574E1 /* Frameworks */,
+				C03FCE1F16B4FBEC006574E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveView;
+			productName = MoveView;
+			productReference = C03FCE2116B4FBEC006574E1 /* MoveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03FCE1816B4FBEC006574E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Ayakix;
+			};
+			buildConfigurationList = C03FCE1B16B4FBEC006574E1 /* Build configuration list for PBXProject "MoveView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C03FCE1616B4FBEC006574E1;
+			productRefGroup = C03FCE2216B4FBEC006574E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03FCE2016B4FBEC006574E1 /* MoveView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03FCE1F16B4FBEC006574E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03FCE3016B4FBEC006574E1 /* InfoPlist.strings in Resources */,
+				C03FCE3816B4FBEC006574E1 /* Default.png in Resources */,
+				C03FCE3A16B4FBEC006574E1 /* Default@2x.png in Resources */,
+				C03FCE3C16B4FBEC006574E1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03FCE1D16B4FBEC006574E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03FCE3216B4FBEC006574E1 /* main.m in Sources */,
+				C03FCE3616B4FBEC006574E1 /* AppDelegate.m in Sources */,
+				C03FCE4416B4FC10006574E1 /* ViewController.m in Sources */,
+				C03FCE4716B50147006574E1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C03FCE2E16B4FBEC006574E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C03FCE2F16B4FBEC006574E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C03FCE3D16B4FBEC006574E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C03FCE3E16B4FBEC006574E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C03FCE4016B4FBEC006574E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveView/MoveView-Prefix.pch";
+				INFOPLIST_FILE = "MoveView/MoveView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C03FCE4116B4FBEC006574E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveView/MoveView-Prefix.pch";
+				INFOPLIST_FILE = "MoveView/MoveView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03FCE1B16B4FBEC006574E1 /* Build configuration list for PBXProject "MoveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03FCE3D16B4FBEC006574E1 /* Debug */,
+				C03FCE3E16B4FBEC006574E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03FCE3F16B4FBEC006574E1 /* Build configuration list for PBXNativeTarget "MoveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03FCE4016B4FBEC006574E1 /* Debug */,
+				C03FCE4116B4FBEC006574E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03FCE1816B4FBEC006574E1 /* Project object */;
+}
